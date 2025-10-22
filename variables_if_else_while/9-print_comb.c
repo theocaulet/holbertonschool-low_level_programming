@@ -8,19 +8,21 @@
 
 int main(void)
 {
-	for (int i = 0; i <= 9; i++)
-	{
-	for (int j = 0; j <= 9; j++)
-	{
-	putchar('0' + i);
-	putchar('0' + j);
+	int numbers;
 
-	if (!(i == 9 && j == 9))
+	for (numbers = '0'; numbers <= '9'; numbers++)
+	{
+	putchar('0' + numbers);
+	}
+
+	if (!(numbers == 9))
 	{
 	putchar(',');
 	}
+	{
+	putchar(' ');
 	}
-	}
+	putchar('\n');
 
 return (0);
 }
