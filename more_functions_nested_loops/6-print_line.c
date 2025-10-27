@@ -3,6 +3,8 @@
 /**
  * print_line - Draws a straight line in the terminal
  * @n: the number of times the character _ should be printed
+ *
+ * Description: Si n <= 0, la fonction affiche simplement un '\n'
  */
 void print_line(int n)
 {
@@ -10,7 +12,7 @@ void print_line(int n)
 
 	if (n <= 0)
 	{
-	_putchar('n');
+	_putchar('\n');
 	}
 	else
 	{
