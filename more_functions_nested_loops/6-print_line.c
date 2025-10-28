@@ -4,7 +4,7 @@
  * print_line - Draws a straight line in the terminal
  * @n: the number of times the character _ should be printed
  *
- * Description: Si n <= 0, la fonction affiche simplement un '\n'
+ * Description: If n <= 0, the function simply displays a '\n'
  */
 void print_line(int n)
 {
