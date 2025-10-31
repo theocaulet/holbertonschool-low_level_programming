@@ -20,5 +20,6 @@ void reverse_array(int *a, int n);
 char *string_toupper(char *);
 char *leet(char *);
 int _atoi(char *s);
+char *cap_string(char *);
 
 #endif
