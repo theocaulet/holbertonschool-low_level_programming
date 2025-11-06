@@ -6,15 +6,13 @@
  * @argc: Number of command-line arguments
  * @argv: Array of command-line argument strings
  *
- * Description: This program prints its own name, i.e., the first argument
- * passed to it on the command line.
+ * Description: prints the number of arguments passed into it
  *
- * Return: Always 0 (Success)
+ * Return: always 0
  */
 int main(int argc, char *argv[])
 {
-	(void)argc;
-	printf("%s\n", argv[0]);
+	printf("%d\n", argc - 1);
+	(void)argv;
 	return (0);
 }
-
