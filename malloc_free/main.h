@@ -31,5 +31,6 @@ int add(int, int);
 void times_table(void);
 void print_to_98(int n);
 char *create_array(unsigned int size, char c);
+char *_strdup(char *str);
 
 #endif
