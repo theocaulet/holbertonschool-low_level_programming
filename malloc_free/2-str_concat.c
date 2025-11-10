@@ -14,7 +14,7 @@ char *str_concat(char *s1, char *s2)
 	unsigned int len1 = 0, len2 = 0;
 	char *array;
 
-	if (s1 == 0 || s2 == 0)
+	if (s1 == NULL || s2 == NULL)
 	{
 	s1 = "";
 	s2 = "";
@@ -28,9 +28,9 @@ char *str_concat(char *s1, char *s2)
 	len2++;
 	}
 	array = malloc((len1 + len2 + 1) * sizeof(char));
-	if (array == 0)
+	if (array == NULL)
 	{
-	return (0);
+	return (NULL);
 	}
 	for (i = 0; i < len1; i++)
 	{
