@@ -4,9 +4,11 @@
 #include <string.h>
 
 /**
- * *_calloc - allocates memory for an array
- * @nmemb: number of element of size bytes
- * @size: size of the array
+ * _calloc - allocate memory for an array and initialize it to 0
+ * @nmemb: number of elements
+ * @size: size of each element
+ *
+ * Return: pointer to allocated memory, or NULL if failure
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
