@@ -2,13 +2,13 @@
 #define DOG_H
 
 /**
- * struct dog - Structure représentant un chien
- * @name: nom du chien
- * @age: âge du chien
- * @owner: nom du propriétaire
- *
- * Description: Ce type de structure permet de stocker
- * les informations de base sur un chien.
+ * struct dog - Structure representing a dog
+* @name: name of the dog
+* @age: age of the dog
+* @owner: owner's name
+*
+* Description: This type of structure allows you to store
+* basic information about a dog.
  */
 
 struct dog
