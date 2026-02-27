@@ -1,26 +1,53 @@
-# holbertonschool-low_level_programming
+# Low Level Programming in C  
+> Mastering C fundamentals and low-level concepts: memory management, pointers, structures, and system-level programming.
 
+![Language](https://img.shields.io/badge/Language-C-blue.svg)
+![Platform](https://img.shields.io/badge/Platform-Linux-lightgrey.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Status-Active-success.svg)
 
-## Folder Descriptions
+---
 
-- **0-preprocessor** — Introduction to the C preprocessor  
-- **argc_argv** — Handling command-line arguments in `main`  
-- **function_pointers** — Working with function pointers  
-- **functions_nested_loops** — Functions and nested loops exercises  
-- **hello_world** — First steps in C programming  
-- **malloc_free** — Dynamic memory allocation with `malloc` and `free`  
-- **more_functions_nested_loops** — Advanced functions and nested loops  
-- **more_malloc_free** — More challenges on dynamic memory management  
-- **pointers_arrays_strings** — Pointers, arrays, and strings manipulation  
-- **recursion** — Introduction to recursion  
-- **structures_typedef** — Using `struct` and `typedef` in C  
-- **variables_if_else_while** — Variables, conditionals, and `while` loops  
+## Description & Objectives
 
-## Usage
+This repository contains projects completed as part of a **Low-Level Programming curriculum**, focused on mastering the C programming language and understanding how software interacts with system memory and hardware.
 
-1. **Clone the repository**
+### Objectives
 
-   ```bash
-   git clone https://github.com/theocaulet/holbertonschool-low_level_programming.git
-   cd holbertonschool-low_level_programming
+- Master C programming fundamentals  
+- Understand memory management (stack vs heap)  
+- Work with pointers, arrays, and structures  
+- Implement low-level functions and algorithms  
+- Understand compilation and linking processes  
+- Follow strict coding and documentation standards  
+
+This project emphasizes **code quality, readability, modularity, and best practices**.
+
+---
+
+## Technologies Used
+
+| Technology | Purpose |
+|------------|----------|
+| C | Core programming language |
+| GCC | Compiler |
+| Make | Build automation |
+| Betty | C style linter |
+| Git | Version control |
+| Linux (Ubuntu 20.04+) | Recommended environment |
+
+---
+
+## Prerequisites
+
+### Required OS
+- Ubuntu 20.04 LTS (recommended)  
+- Or any Linux distribution compatible with GCC  
+
+### Required Packages
+
+```bash
+sudo apt update
+sudo apt install build-essential
+sudo apt install manpages-dev
 
